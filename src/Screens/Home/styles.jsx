@@ -10,86 +10,34 @@ const styles = StyleSheet.create({
         marginTop: 20,
         flex: 1,
         width: '90%',
-        marginHorizontal: 'auto'
+        marginHorizontal: 'auto',
+        alignItems: 'center'
     },
-    homeTitle: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        textAlign: 'center'
+    logo: {
+        marginTop: 50,
     },
-    inputView: {
-        // backgroundColor: '#777',
-        marginBottom: 20
+    buttonsView: {        
+        height: 100,
+        marginTop: 170
     },
-    inputText: {
-        fontSize: 17,
-        fontWeight: 'bold'
-    },
-    input: {
-        backgroundColor: '#aaa',
-        marginTop: 5,
-        borderWidth: 2,
-        borderColor: '#444',
-        color: '#000',
-    },
-    inputViewTitle: {
-        marginTop: 30
-    },
-    descView: {
-
-    },
-    descText: {
-        fontSize: 17,
-        fontWeight: 'bold',
-        marginBottom: 5
-    },
-    descInput: {
-        backgroundColor: '#aaa',
-        borderWidth: 2,
-        borderColor: '#444',
-        height: 200,
-        textAlignVertical: 'top',
-        color: '#000'
-    },
-    buttonAddService: {
-        backgroundColor: '#005ef6',
-        marginTop: 20,
-        height: 45,
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '50%',
+    button: {        
+        height: 70,
         marginBottom: 20,
-        borderWidth: 1,
-        borderColor: '#002869'
-    },
-    buttonAddServiceText: {
-        fontSize: 17,
-        fontWeight: 'bold',
-        color: '#ddd'
-    },
-    buttonWithMaterial: {
-        marginTop: -10,
-        backgroundColor: '#aaa',
-        width: '50%',
-        height: 40,
-        justifyContent: 'center',
+        width: 200,
         alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 10
     },
-    buttonWithMaterialText: {
+    buttonAddOrcamento: {
+        backgroundColor: '#888',
+    },
+    buttonAddRecibo: {
+        backgroundColor: '#007308'
+    },
+    buttonText:{
+        fontSize: 16,
         fontWeight: 'bold'
-    },
-    buttonContinue: {
-        backgroundColor: '#3DB864',
-        width: '50%',
-        marginTop: 10,
-        borderWidth: 1,
-        borderColor: '#358d51',
-        height: 50,
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginLeft: 'auto'        
     }
-
 });
 
 
